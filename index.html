@@ -207,6 +207,23 @@
 <script src="js/jquery-2.1.4.js"></script>
 <script src="js/main_menu.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
-
+<script type="text/javascript">
+	$.fn.scrollView = function () {
+    return this.each(function () {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top
+        }, 1000);
+    });
+}
+$(".cd-projects-previews").on('click',function(Events) {
+	$("html").css('overflow','hidden');
+	$(this).scrollView();
+	// body...
+})
+$(".cd-nav-trigger").on('click', function(Events){
+	$("html").css('overflow','auto');
+	$(".cd-projects > li.selected").css('overflow','hidden');
+})
+</script>
 </body>
 </html>
