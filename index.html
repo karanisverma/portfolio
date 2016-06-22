@@ -89,7 +89,7 @@
 						<p>Brief description of the project here</p>
 					</div> 
 				</div>
-				<div class ="scroll_view"></div>
+				<!-- <div class ="scroll_view"></div> -->
 				<div class="cd-project-info">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quod dicta aliquid nemo repellendus distinctio minus dolor aperiam suscipit, ea enim accusantium, deleniti qui sequi sint nihil modi amet eligendi, quidem animi error labore voluptatibus sed. Qui magnam labore, iusto nostrum. Praesentium non, impedit accusantium consequatur officia architecto, mollitia placeat aperiam tenetur pariatur voluptatibus corrupti vitae deserunt! Nostrum non mollitia deserunt ipsam. Sunt quaerat natus cupiditate iure ipsa voluptatibus recusandae ratione vitae amet distinctio, voluptas, minus vero expedita ea fugit similique sit cumque ad id facere? Ab quas, odio neque quis ratione. Natus labore sit esse, porro placeat eum hic.
@@ -239,34 +239,15 @@
     });
 }
 
-	$.fn.scrollViewTo = function () {
-    return this.each(function () {
-        $('.content-visible').animate({
-            scrollTop: $(this).offset().top
-        }, 1000);
-    });
-}
-
-
-
 $(".scroll").click(function(){
 	
-	var scrollval = $('.cd-project-info').offset().top;
+	var scrollval = $('.cd-project-info').position().top;
+	console.log(scrollval);
 	$('.selected.content-visible').animate({
     scrollTop: scrollval
 },1500);
 })
-// on scroll code 
-$(".cd-projects > li.selected").on('scroll',function(){
-	console.log("scrolling");
-	// console.log($(".cd-project-info").position().top);
-	// if($(".cd-project-info").position().top >= 0){
-	// 	$(".scroll").css('display','none');
-	// 	// console.log("under if");
-	// }
-	// else  {
-	// $(".scroll").css('display','block');	
-	});
+
 $(".cd-projects-previews").on('click',function(Events) {
 	$("html").css('overflow','hidden');
 	$(".cd-projects > li.selected").css('overflow','auto');
