@@ -635,7 +635,7 @@ a.cd-nav-trigger.cd-text-replace.project-open {
 .cd-projects-previews {
   position: relative;
   z-index: 2;
-  height: 100vh;
+  height: 115vh;
   width: 100vw;
 }
 .cd-projects-previews::after {
@@ -1023,6 +1023,7 @@ li.selected .cd-project-title,
   left: 50%;
   width: 44px;
   height: 44px;
+  color: black;
   /* rest button default style */
   cursor: pointer;
   border: none;
@@ -1043,6 +1044,8 @@ li.selected .cd-project-title,
 
 .cd-projects-container.project-open .scroll {
   visibility: visible;
+  color: black;
+  top:45em;
   -webkit-transform: translateX(-50%) scale(1);
   -moz-transform: translateX(-50%) scale(1);
   -ms-transform: translateX(-50%) scale(1);
@@ -1476,8 +1479,8 @@ a:hover {
 }
 
 .cbp-ig-icon:before {
-  font-family: 'anyoldicon';
-  font-size: 14em;
+  /*font-family: 'anyoldicon';*/
+  font-size: 10em;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1957,7 +1960,7 @@ Content Sections - basic style
   bottom: 20px;
   width: 44px;
   height: 44px;
-  background: url(../img/cd-arrow-bottom.svg) no-repeat center center;
+  /*background: url(../img/cd-arrow-bottom.svg) no-repeat center center;*/
 }
 
 /* -------------------------------- 
@@ -2012,3 +2015,11 @@ no-js
   -o-transform: translateX(0);
   transform: translateX(0);
 }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+.cd-projects-container.project-open .scroll{
+  top:37em;
+}
+}
+/*under media query write this */
