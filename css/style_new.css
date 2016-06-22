@@ -1481,6 +1481,7 @@ a:hover {
 .cbp-ig-icon:before {
   /*font-family: 'anyoldicon';*/
   font-size: 10em;
+  margin-bottom: .1em;
   speak: none;
   font-style: normal;
   font-weight: normal;
