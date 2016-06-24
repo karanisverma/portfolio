@@ -2111,6 +2111,11 @@ no-js
   width: 100%;
   background: #2e416a;
 }
+.social{
+  background: white;
+  width: 100%;
+  padding: 1% 45%;
+}
 .hire_me button{
      position: relative;
     font-family: knileregular;
@@ -2145,6 +2150,9 @@ no-js
   color: black;
 }
 */
+body{
+  overflow-x: hidden;
+}
 
 
 
@@ -2181,6 +2189,18 @@ i.cbp-ig-icon.icon-css:before,i.cbp-ig-icon.icon-python:before,i.cbp-ig-icon.ico
   padding:  1em 0em;
   border-bottom: 1px solid #EFEFEF;
 }
+.github_logo{
+  position: relative;
+    height: 1.5em;
+    width: 1.5em;
+    cursor: pointer;
+
+}
+.homepage_logo{
+  height: 2.5em;
+  width: 2.5em;
+  margin:0 .5em;
+}
 @media only screen and (min-width: 320px) {
     .cbp-ig-grid li:last-child{
     left: 0%;
@@ -2195,7 +2215,7 @@ i.cbp-ig-icon.icon-css:before,i.cbp-ig-icon.icon-python:before,i.cbp-ig-icon.ico
   width: 100vw;
 }
 .cd-projects-container{
-  overflow-x: inherit;
+  overflow-x: initial;
 }
 .cd-project-title p {
     font-size: 1.2rem;}
@@ -2234,7 +2254,7 @@ i.cbp-ig-icon.icon-css:before,i.cbp-ig-icon.icon-python:before,i.cbp-ig-icon.ico
 }
 .hire_me a {
     position: relative;
-    top: 50%;
+    top: 40%;
     /* margin-left: 20%; */
 }
 }
