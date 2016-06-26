@@ -465,6 +465,7 @@ Mask
   position: relative;
   font-family: knileregular;
   margin: 0;
+  width: 100%;
   padding: 10px 0 0;
   -webkit-animation-name: cd-reveal-down;
   -moz-animation-name: cd-reveal-down;
@@ -2193,7 +2194,12 @@ body{
   text-decoration: underline;
 }
 
-
+.about_me{
+      margin-top: 2em;
+    text-align: center;
+    color: #DDDDDD;
+    width: 100%;
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
