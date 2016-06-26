@@ -2154,8 +2154,40 @@ no-js
 body{
   overflow-x: hidden;
 }
-
-
+.resume_download{
+  margin-top: 2em;
+  width: 100%;
+}
+.resume_download button{
+     position: relative;
+     font-family: knileregular;
+     padding: 1em;
+     /*margin: 8% 40%;*/
+     /* width: 20%; */
+     background: transparent;
+     border: 2px solid #FEFEFE;
+     font-size: 1em;
+     color: #FEFEFE;
+     transition: background, border,font-size,margin,padding,color,.4s;
+}
+.resume_download button a{
+  transition: color,.4s;
+}
+.resume_download a{
+      /* position: relative; */
+      /* top: 70%; */
+      /* left: 25%; */
+}
+.resume_download button:hover, .hire_me button:focus {
+    font-family: knileregular;
+    background: #FEFEFE;
+    border: 2px solid white;
+    /*font-size: 1.7em;*/
+    color: black;
+    cursor: pointer;
+    /*margin: 4.5em 40%;*/
+    /*padding: .8em;*/
+}
 
 
 
