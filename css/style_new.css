@@ -2113,8 +2113,9 @@ no-js
 }
 .social{
   background: white;
-  width: 100%;
-  padding: 1% 45%;
+  width: 50%;
+  position: relative;
+  margin: 0 auto;
 }
 .hire_me button{
      position: relative;
@@ -2197,9 +2198,9 @@ i.cbp-ig-icon.icon-css:before,i.cbp-ig-icon.icon-python:before,i.cbp-ig-icon.ico
 
 }
 .homepage_logo{
-  height: 2.5em;
-  width: 2.5em;
-  margin:0 .5em;
+  height: 2.6em;
+  width: 2.6em;
+  margin: 0.5em 1.5em;
 }
 @media only screen and (min-width: 320px) {
     .cbp-ig-grid li:last-child{
@@ -2233,7 +2234,19 @@ i.cbp-ig-icon.icon-css:before,i.cbp-ig-icon.icon-python:before,i.cbp-ig-icon.ico
       top: 50%;
       left: 25%;
 }
-
+.homepage_logo {
+    margin: 0.5em 1em;
+}
+}
+@media only screen and (min-width: 375px) {
+  .homepage_logo {
+    margin: 0.5em 1.5em;
+}
+}
+@media only screen and (min-width: 425px) {
+  .homepage_logo {
+    margin: 0.5em 1.9em;
+}
 }
 @media only screen and (min-width: 768px) {
   .cd-project-title p {
@@ -2257,6 +2270,11 @@ i.cbp-ig-icon.icon-css:before,i.cbp-ig-icon.icon-python:before,i.cbp-ig-icon.ico
     top: 40%;
     /* margin-left: 20%; */
 }
+  .homepage_logo {
+    margin: 0.5em 0.9em;
+}
+.social {
+    width: 20%;}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -2285,5 +2303,14 @@ i.cbp-ig-icon.icon-css:before,i.cbp-ig-icon.icon-python:before,i.cbp-ig-icon.ico
      color: #FEFEFE;
      left: 15%;
   }
+    .homepage_logo {
+    margin: 0.5em 0.9em;
+}
+.social {
+    width: 15%;}
 
 }
+@media only screen and (min-width: 1336px){
+.social {
+    width: 11%;
+}}
