@@ -2236,7 +2236,13 @@ i.cbp-ig-icon.icon-css:before,i.cbp-ig-icon.icon-python:before,i.cbp-ig-icon.ico
     height: 1.5em;
     width: 1.5em;
     cursor: pointer;
-
+}
+.linkedin_logo{
+  float: right;
+  position: relative;
+    height: 1.5em;
+    width: 1.5em;
+    cursor: pointer;
 }
 .homepage_logo{
   height: 2.6em;
