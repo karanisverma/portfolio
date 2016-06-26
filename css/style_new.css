@@ -2188,7 +2188,10 @@ body{
     /*margin: 4.5em 40%;*/
     /*padding: .8em;*/
 }
-
+.cd-project-info a {
+  color: #2e416a;
+  text-decoration: underline;
+}
 
 
 
