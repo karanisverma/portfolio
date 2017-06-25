@@ -1531,10 +1531,10 @@ a:hover {
   box-shadow: 1px 0 0 #ddd;
 }
 */
-.cbp-ig-grid li:last-child{
+/*.cbp-ig-grid li:last-child{
   position: relative;
     left: 40%;
-}
+}*/
 .cbp-ig-grid li{
   border-top: none;
 }
