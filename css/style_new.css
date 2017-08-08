@@ -868,13 +868,13 @@ a.cd-nav-trigger.cd-text-replace.project-open {
 .cd-projects-previews a,
 .cd-projects .preview-image {
   /* set a background image for each project */
-  background: #5b927d url(../img/img-1.jpg) no-repeat center center;
+  background: #5b927d url(../img/fooodie.png) no-repeat center center;
   background-size: cover;
 }
 
 .cd-projects-previews li:nth-of-type(2) a,
 .cd-projects > li:nth-of-type(2) .preview-image {
-  background: #a8ae7e url(../img/img-2.jpg) no-repeat center center;
+  background: #a8ae7e url(../img/samosaking.png) no-repeat center center;
   background-size: cover;
 }
 
